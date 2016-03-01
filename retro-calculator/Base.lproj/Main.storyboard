@@ -24,6 +24,25 @@
                                     <constraint firstAttribute="width" secondItem="PXC-mj-Mn5" secondAttribute="height" multiplier="1:1" id="1eO-lD-5hO"/>
                                 </constraints>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XLI-YD-rvJ">
+                                <rect key="frame" x="171" y="105" width="258" height="462"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="counter" translatesAutoresizingMaskIntoConstraints="NO" id="hLO-ex-hrJ">
+                                        <rect key="frame" x="0.0" y="0.0" width="258" height="67"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="258" id="2CR-oX-30O"/>
+                                            <constraint firstAttribute="height" constant="67" id="8LY-Yl-q9O"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="backpanel" translatesAutoresizingMaskIntoConstraints="NO" id="rtK-ek-dkQ">
+                                        <rect key="frame" x="0.0" y="67" width="258" height="395"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="258" id="NNr-f8-olY"/>
+                                            <constraint firstAttribute="height" constant="395" id="OYP-st-iKq"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -40,6 +59,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backpanel" width="620" height="938"/>
+        <image name="counter" width="516" height="133"/>
         <image name="space-bg" width="988" height="946"/>
     </resources>
 </document>
