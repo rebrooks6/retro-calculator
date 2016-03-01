@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "420318d9a536f280257e498b7e9a966c"
+build_time: [510122132, 262544000]
+inputs:
+  "/Volumes/Media/iOS Projects/Udemy/retro-calculator/retro-calculator/ViewController.swift": [510122127, 0]
+  "/Volumes/Media/iOS Projects/Udemy/retro-calculator/retro-calculator/AppDelegate.swift": [510122127, 0]
